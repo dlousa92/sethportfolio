@@ -44,3 +44,16 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Main stylesheet */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navitems {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
