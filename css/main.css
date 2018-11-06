@@ -57,3 +57,8 @@ table {
   width: 30%;
   justify-content: space-around;
 }
+
+.navitems li a {
+  color: black;
+  text-decoration: none;
+}
