@@ -53,6 +53,8 @@ body {
   justify-content: center;
   margin: 0 auto;
   max-width: 1500px;
+  background: whitesmoke;
+  color: #373D3F;
 }
 
 .navbar {
@@ -85,4 +87,11 @@ body {
 
 .project-image {
   height: 250px;
+}
+
+.aboutheader {
+  font-size: 2.5em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
