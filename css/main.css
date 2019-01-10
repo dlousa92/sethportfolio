@@ -78,20 +78,25 @@ body {
 }
 
 .header {
-  height: 300px;
+  height: 600px;
   padding: 0px;
-  background: url(../img/cover.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../img/cover.jpg)
+    repeat scroll center center / cover;
 }
 
-.project-image {
-  height: 250px;
+.about {
+  margin: 50px 0px;
 }
 
-.aboutheader {
+.aboutheader, .projectsheader {
   font-size: 2.5em;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+.project-image {
+  height: 250px;
 }
